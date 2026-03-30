@@ -36,3 +36,34 @@ function mycart2(cart2, cart3, ...cartNum) {
     
 }
 console.log(mycart2(100, 200, 300, 400, 500, 600, 700));
+
+
+// Object Working in Fanction
+
+const user = {
+    id: 1,
+    name: "Md Arif Rahman",
+    email: "arif@example.com",
+    role: "Admin",
+    isActive: true,
+}
+
+function myUser(allUser){
+    console.log(`Her Full Name: ${allUser.name}, Email is ${allUser.email}`);
+    // return allUser
+}
+
+myUser(user)
+
+// If Use array in Function
+
+const myArr = [0, 1, 2, "Solim","Babu", 3]
+function myArrList(allArr) {
+    console.log(allArr[4]);
+    console.log(allArr[3]);
+    
+    
+}
+
+myArrList(myArr)
+
