@@ -10,3 +10,14 @@ if(data > 10){
     
 }
 
+// Scope in If statment
+
+const score = 200;
+if(score > 100){
+    const mydata = score
+    console.log(`You are now Succsess. Because you got Score ${mydata}`);
+    
+}
+console.log(`You are now Succsess. Because you got Score ${mydata}`);
+
+
